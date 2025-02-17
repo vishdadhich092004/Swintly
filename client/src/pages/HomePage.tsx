@@ -1,39 +1,11 @@
+import Hero from "@/components/Hero";
+import { BackgroundBeams } from "@/components/ui/background-beams";
+
 function HomePage() {
   return (
-    <div>
-      <h1 className="font-bold text-3xl flex items-center justify-center">
-        Hi from Swintly
-      </h1>
-      <h1 className="font-bold text-3xl flex items-center justify-center">
-        Hi from Swintly
-      </h1>
-      <h1 className="font-bold text-3xl flex items-center justify-center">
-        Hi from Swintly
-      </h1>
-      <h1 className="font-bold text-3xl flex items-center justify-center">
-        Hi from Swintly
-      </h1>
-      <h1 className="font-bold text-3xl flex items-center justify-center">
-        Hi from Swintly
-      </h1>
-      <h1 className="font-bold text-3xl flex items-center justify-center">
-        Hi from Swintly
-      </h1>
-      <h1 className="font-bold text-3xl flex items-center justify-center">
-        Hi from Swintly
-      </h1>
-      <h1 className="font-bold text-3xl flex items-center justify-center">
-        Hi from Swintly
-      </h1>
-      <h1 className="font-bold text-3xl flex items-center justify-center">
-        Hi from Swintly
-      </h1>
-      <h1 className="font-bold text-3xl flex items-center justify-center">
-        Hi from Swintly
-      </h1>
-      <h1 className="font-bold text-3xl flex items-center justify-center">
-        Hi from Swintly
-      </h1>
+    <div className="flex flex-col gap-4">
+      <Hero />
+      <BackgroundBeams className="opacity-70" />
     </div>
   );
 }
