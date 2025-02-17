@@ -12,6 +12,5 @@
             "dest": "src/index.ts"
         }
     ],
-    "installCommand": "npm install --legacy-peer-deps",
-    "framework": "nodejs"
+    "installCommand": "npm install --legacy-peer-deps"
 }
