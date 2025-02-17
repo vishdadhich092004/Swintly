@@ -5,6 +5,8 @@ import { connectDB } from "./db/db.config";
 dotenv.config();
 
 const app = express();
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 app.get("/", (req: Request, res: Response) => {
   res.send("Hey from Swintly Backend");
